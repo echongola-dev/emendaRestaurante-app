@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/cafe"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Cafe"
+            android:id="@+id/cb_cafe"
+            android:textSize="15sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.3"
+            android:layout_height="wrap_content"
+            android:text="50 Mt Quantidade:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_quantCafe"
+            android:minWidth="50sp"
+            android:inputType="number"
+            android:text="0"
+            android:gravity="center"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/sorvete"/>
+
+        <CheckBox
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Sorvete"
+            android:id="@+id/cb_sorvete"
+            android:textSize="15sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.3"
+            android:layout_height="wrap_content"
+            android:text="75 Mt Quantidade:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="0sp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_quantSorvete"
+            android:minWidth="50sp"
+            android:inputType="number"
+            android:text="0"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/leite"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Leite Quente"
+            android:id="@+id/cb_leite_quente"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.3"
+            android:layout_height="wrap_content"
+            android:text="100 Mt Quantidade:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_quantLeiteQuente"
+            android:layout_width="0sp"
+            android:layout_weight="0.7"
+            android:layout_height="match_parent"
+            android:minWidth="50sp"
+            android:inputType="number"
+            android:text="0"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/nata"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Nata"
+            android:id="@+id/cb_nata"
+            android:textSize="15sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.3"
+            android:layout_height="wrap_content"
+            android:text="80 Mt Quantidade:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_quantNata"
+            android:layout_width="0sp"
+            android:layout_height="48dp"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:inputType="number"
+            android:minWidth="50sp"
+            android:text="0" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/sumo"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Sumo"
+            android:id="@+id/cb_sumo"
+            android:textSize="15sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.3"
+            android:layout_height="wrap_content"
+            android:text="150 Mt Quantidade:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="0sp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_quantSumo"
+            android:minWidth="50sp"
+            android:inputType="number"
+            android:text="0"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/pizza"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:id="@+id/cb_pizza"
+            android:textSize="15sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.3"
+            android:layout_height="wrap_content"
+            android:text="350 Mt Quantidade:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="0sp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_quantPizza"
+            android:minWidth="50sp"
+            android:inputType="number"
+            android:text="0"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_fazerPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="Fazer o Pedido"
+        android:textSize="15sp"
+        android:layout_margin="60sp"/>
+
+</LinearLayout>

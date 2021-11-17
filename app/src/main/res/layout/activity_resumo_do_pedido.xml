@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResumoDoPedidoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pedido"
+        android:textSize="30sp"
+        android:id="@+id/resumo_do_pedido"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edio Chongola"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35sp"/>
+
+</LinearLayout>
